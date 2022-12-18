@@ -1,0 +1,60 @@
+<!-- Second Homepage -->
+<ion-header>
+  <ion-toolbar>
+    <ion-title>SM Supermalls</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <ion-card>
+      <ion-card-header>
+        <ion-icon name="cart"></ion-icon>
+        SM City Pampanga
+      </ion-card-header>
+      <ion-card-content>
+        <img class="sm-pic" src="assets/info/smpamp.jpg">
+        SM City Pampanga is a shopping mall owned and operated by SM Prime 
+        Holdings, the largest mall operator in the Philippines.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-icon name="location"></ion-icon>
+        SM City Pampanga Map
+      </ion-card-header>
+      <ion-card-content>
+        <img class="sm-map" src="assets/info/map.png">
+        It is located along the Jose Abad Santos Avenue (formerly Olongapo-Gapan 
+        Road) in the City of San Fernando and Mexico in the province of Pampanga. 
+        It has a land area of 316,000 m2 (3,400,000 sq ft) and a total gross 
+        floor area of 132,484 m2 (1,426,050 sq ft).
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-icon name="eye"></ion-icon>
+        SM City Pampanga Aerial View
+      </ion-card-header>
+      <ion-card-content>
+        <img src="assets/info/aerial.jpg">
+        It is the first SM Supermall in Central Luzon and is currently the longest
+        and largest shopping mall in the region. The shopping mall is composed
+        of the Main Building, Annex 1, Annex 2 and Annex 3.
+      </ion-card-content>
+    </ion-card>
+  </div>
+  
+  <div>
+    <ion-card>
+      <ion-card-content>
+        <ion-icon name="help"></ion-icon>
+        To get more information about the shopping mall...
+        <ion-button shape="round" (click)="info()" routerLink="/info">View More</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <br>
+</ion-content>

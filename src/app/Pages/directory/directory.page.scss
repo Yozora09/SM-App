@@ -1,0 +1,27 @@
+ion-toolbar {
+    --background: #fff;
+    color: black;
+}
+
+.container {
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 6px;
+
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.buttons {
+    margin-top: 10%;
+}
+
+.button {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}

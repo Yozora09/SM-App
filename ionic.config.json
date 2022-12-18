@@ -1,0 +1,7 @@
+{
+  "name": "MallDirectoryApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
