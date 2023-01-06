@@ -16,7 +16,7 @@ export class HomePage {
   }
   async presentToast(position: 'bottom') {
     const toast = await this.toastController.create({
-      message: 'Welcome to SM City Pampanga App',
+      message: 'Welcome to SM City Pampanga App.',
       duration: 3000,
       position: position
     });

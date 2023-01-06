@@ -11,7 +11,7 @@ export class AppComponent {
   
   async presentToast(position: 'bottom') {
     const toast = await this.toastController.create({
-      message: 'Some information are not yet present in the app. Thank you',
+      message: 'Some information are not yet included in the app. Thank you.',
       duration: 3000,
       position: position
     });
